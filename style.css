@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}   
+.container
+{
+    background-color: black;
+    padding: 7px;
+    border-radius: 10px;
+
+
+}
+input{
+    width: 60px;
+    height: 60px;
+    margin:2px;
+    border-radius: 50%;
+    border: none;
+     font-size: 20px;
+}
+form .display-num{
+    width: 100%;
+    border-radius: 0%;
+    margin: 0;
+    background-color: black;
+    color: white;
+    text-align: right;
+    flex: 1;
+
+}
+.operator{
+    background-color: orange;
+    border: none;
+    color: white;
+}
+#equalto{
+    border-radius: 40px;
+      width: 47%;
+}
+.numbers
+{
+    background-color: gray;
+    color: white;
+}
